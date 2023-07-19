@@ -72,6 +72,7 @@ class InvoiceForm extends React.Component {
     });
 
     this.setState({
+      
       subTotal: parseFloat(subTotal).toFixed(2)
     }, () => {
       this.setState({
